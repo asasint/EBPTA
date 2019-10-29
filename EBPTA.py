@@ -12,9 +12,6 @@ no_of_different_labels = 10 #  i.e. 0, 1, 2, 3, ..., 9
 image_pixels = image_size * image_size
 
 
-train_labels = np.asfarray(train_data[:, :1])
-test_labels = np.asfarray(test_data[:, :1])
-lr = np.arange(no_of_different_labels)
 
 
 # transform labels into one hot representation
