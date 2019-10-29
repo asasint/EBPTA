@@ -8,6 +8,10 @@ test_data = np.loadtxt("data_test.csv",
                         delimiter=",")
 
 
+plt.plot(train_data)
+
+plt.plot(test_data)
+
 #print(train_data[0])
 image_size = 28 # width and length
 no_of_different_labels = 10 #  i.e. 0, 1, 2, 3, ..., 9
