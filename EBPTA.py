@@ -1,4 +1,6 @@
 import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
 
 train_data = np.loadtxt("data_train.csv", 
                         delimiter=",")
